@@ -1,4 +1,4 @@
-FROM lampe/minimal-nginx
+FROM lalyos/rpi-nginx
 
-ADD cloud-config /srv/www/
-ADD ipxe /srv/www/
+ADD cloud-config /usr/share/nginx/html/
+ADD ipxe /usr/share/nginx/html/
