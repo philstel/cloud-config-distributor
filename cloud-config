@@ -1,8 +1,0 @@
-#cloud-config
-
-users:
-  - name: phillu
-    coreos-ssh-import-github: philstel
-    groups:
-      - sudo
-      - docker
